@@ -17,3 +17,12 @@ let combinedArrays = ["Huswah", "Ridwan", "Abdurrahman","Toyyib","Momma","Dad"];
 for (let item of combinedArrays) {
   alert( item );
 }
+
+alert(second exercise);
+
+const numbers = [1,2,3];
+const newarray = numbers.map(myFunction)
+function myFunction(num) {
+ return num * 2;
+}
+ console.log(newarray);
